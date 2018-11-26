@@ -1,4 +1,4 @@
-#timit_utils
+# timit_utils
 
 The code herein can lazily load, parse, and expose the TIMIT database
 of spoken audio, word and phoneme transcriptions.
@@ -6,7 +6,7 @@ of spoken audio, word and phoneme transcriptions.
 Full usage here: https://github.com/colinator/timit_utils/timit_utils_demonst.ipynb
 
 
-#Installation
+# Installation
 
 `pip install timit_utils`
 
@@ -21,7 +21,7 @@ by a set of people. It also includes word and phoneme transcriptions, along with
 their exact positions, as ranges, within the audio files.
 
 
-#Example usage (i.e. in jupyter)
+# Example usage (i.e. in jupyter)
 
 ```code
 %matplotlib inline
