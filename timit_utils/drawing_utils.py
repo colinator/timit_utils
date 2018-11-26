@@ -159,7 +159,7 @@ class WordsPanel(StringProcessPanel):
 
 class PhonesPanel(StringProcessPanel):
     def __init__(self, phones_df: pd.DataFrame, max_time: int, show_x_axis: bool = False) -> None:
-        super().__init__(strings_df=phones_df, color='cyan', max_time=max_time, show_x_axis=show_x_axis)
+        super().__init__(strings_df=phones_df, color='blue', max_time=max_time, show_x_axis=show_x_axis)
 
 
 class CompositePanel(Panel):
