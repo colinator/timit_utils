@@ -23,10 +23,10 @@ of spoken audio, word and phoneme transcriptions. The layout of the TIMIT file s
 
 This library models the data with several classes:
 
-* Corpus (contains two SubCorpuses: train and test)
-* SubCorpus (such as 'train', contains several Regions)
+* Corpus (such as '../TIMIT', contains two SubCorpuses: train and test)
+* SubCorpus (such as 'train'|'test', contains several Regions)
 * Region (such as 'DR1', contains several Persons)
-* Person (such as 'Name:CJF0|Female')
+* Person (such as 'Name:CJF0,Female')
 * Sentence (such as 'SA1', contains audio, word, and phoneme transcriptions as numpy arrays)
 
 All the above give many ways to index, iterate, parse, search, and expose the data as pandas Dataframes.
