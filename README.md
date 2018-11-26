@@ -4,25 +4,30 @@ The TIMIT database, in brief, contains audio recordings of sentences spoken
 by a set of people. It also includes word and phoneme transcriptions, along with
 their exact positions, as ranges, within the audio files.
 
-As such, it is an interesting target for ML: we are given high-grade audio recordings as well as real-time phoneme and word transcriptions.
+As such, it is an interesting target for ML: we are given high-grade audio recordings as well as real-time phoneme and word transcriptions (or guesses at them, anyway).
 
 The actual TIMIT database is NOT included, and is not free. Get it here:
 https://catalog.ldc.upenn.edu/LDC93S1. This library merely adds
 convenience, parsing, sampling, drawing, etc.
 
-![alt text][logo]
+![alt text](https://github.com/colinator/timit_utils/blob/master/advert.png "Example output")
 
-[logo]: https://github.com/colinator/timit_utils/blob/master/advert.png
- "Example output"
 
 
 # timit_utils
 
 The code herein can lazily load, parse, and expose the TIMIT database
-of spoken audio, word and phoneme transcriptions.
+of spoken audio, word and phoneme transcriptions. The layout of the TIMIT file system looks like this:
 
-Full usage here:
-https://github.com/colinator/timit_utils/blob/master/timit_utils_demonst.ipynb
+[alt text](https://github.com/colinator/timit_utils/blob/master/timitfiles.png "Your file system should look like this")
+
+This library models the data with several classes:
+
+* Corpus
+* SubCorpus
+* Region
+* Person 
+* Sentence
 
 
 # Installation
@@ -48,3 +53,6 @@ du.DrawVerticalPanels([du.AudioPanel(sentence.raw_audio, show_x_axis=True),
                        du.PhonesPanel(sentence.phones_df, sentence.raw_audio.shape[0])
                       ])
 ```
+
+Full usage here:
+https://github.com/colinator/timit_utils/blob/master/timit_utils_demonst.ipynb
