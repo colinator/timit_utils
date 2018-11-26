@@ -12,7 +12,7 @@ convenience, parsing, sampling, drawing, etc.
 
 ![alt text][logo]
 
-[logo]: https://github.com/colinator/timit_utils/blob/master/advert.jpg
+[logo]: https://github.com/colinator/timit_utils/blob/master/advert.png
  "Example output"
 
 
