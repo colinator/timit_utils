@@ -1,11 +1,11 @@
 import setuptools
 
-with open("README.rst", "r") as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="timit_utils",
-    version="0.0.20",
+    version="0.9.0",
     author="Colin Prepscius",
     author_email="colinprepscius@gmail.com",
     description="A convenience python wrapper for the TIMIT database.",
