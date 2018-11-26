@@ -19,14 +19,14 @@ convenience, parsing, sampling, drawing, etc.
 The code herein can lazily load, parse, and expose the TIMIT database
 of spoken audio, word and phoneme transcriptions. The layout of the TIMIT file system looks like this:
 
-[alt text](https://github.com/colinator/timit_utils/blob/master/timitfiles.png "Your file system should look like this")
+![alt text](https://github.com/colinator/timit_utils/blob/master/timitfiles.png "Your file system should look like this")
 
 This library models the data with several classes:
 
 * Corpus
 * SubCorpus
 * Region
-* Person 
+* Person
 * Sentence
 
 
