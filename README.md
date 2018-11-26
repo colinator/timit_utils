@@ -31,6 +31,8 @@ This library models the data with several classes:
 
 All the above give many ways to index, iterate, parse, search, and expose the data as pandas Dataframes.
 
+* various audio sampling, padding routines, mel filterbank frequency extractions, and a quick display system
+
 
 # Installation
 
